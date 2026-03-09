@@ -1,0 +1,104 @@
+================================================================================
+MODEL: MultinomialNB
+--------------------------------------------------------------------------------
+Accuracy: 0.99
+Weighted Precision: 0.9905
+Weighted Recall: 0.99
+Weighted F1: 0.9899
+
+               precision    recall  f1-score   support
+
+entertainment       1.00      1.00      1.00        30
+    groceries       1.00      1.00      1.00        30
+   healthcare       1.00      1.00      1.00        30
+         rent       1.00      1.00      1.00        30
+   restaurant       1.00      1.00      1.00        30
+       salary       1.00      1.00      1.00        30
+     shopping       0.94      1.00      0.97        31
+ subscription       1.00      0.90      0.95        30
+    transport       1.00      1.00      1.00        30
+    utilities       0.97      1.00      0.98        30
+
+     accuracy                           0.99       301
+    macro avg       0.99      0.99      0.99       301
+ weighted avg       0.99      0.99      0.99       301
+
+
+================================================================================
+MODEL: LogisticRegression
+--------------------------------------------------------------------------------
+Accuracy: 0.99
+Weighted Precision: 0.9909
+Weighted Recall: 0.99
+Weighted F1: 0.99
+
+               precision    recall  f1-score   support
+
+entertainment       1.00      1.00      1.00        30
+    groceries       1.00      1.00      1.00        30
+   healthcare       1.00      1.00      1.00        30
+         rent       1.00      1.00      1.00        30
+   restaurant       1.00      1.00      1.00        30
+       salary       1.00      1.00      1.00        30
+     shopping       0.91      1.00      0.95        31
+ subscription       1.00      0.90      0.95        30
+    transport       1.00      1.00      1.00        30
+    utilities       1.00      1.00      1.00        30
+
+     accuracy                           0.99       301
+    macro avg       0.99      0.99      0.99       301
+ weighted avg       0.99      0.99      0.99       301
+
+
+================================================================================
+MODEL: DecisionTree
+--------------------------------------------------------------------------------
+Accuracy: 0.7807
+Weighted Precision: 0.9299
+Weighted Recall: 0.7807
+Weighted F1: 0.8154
+
+               precision    recall  f1-score   support
+
+entertainment       1.00      0.83      0.91        30
+    groceries       1.00      0.43      0.60        30
+   healthcare       1.00      0.73      0.85        30
+         rent       1.00      0.87      0.93        30
+   restaurant       1.00      0.87      0.93        30
+       salary       1.00      0.67      0.80        30
+     shopping       0.32      1.00      0.48        31
+ subscription       1.00      0.87      0.93        30
+    transport       1.00      0.80      0.89        30
+    utilities       1.00      0.73      0.85        30
+
+     accuracy                           0.78       301
+    macro avg       0.93      0.78      0.82       301
+ weighted avg       0.93      0.78      0.82       301
+
+
+================================================================================
+MODEL: LinearSVM
+--------------------------------------------------------------------------------
+Accuracy: 0.9834
+Weighted Precision: 0.9837
+Weighted Recall: 0.9834
+Weighted F1: 0.9835
+
+               precision    recall  f1-score   support
+
+entertainment       1.00      0.97      0.98        30
+    groceries       1.00      1.00      1.00        30
+   healthcare       1.00      1.00      1.00        30
+         rent       1.00      1.00      1.00        30
+   restaurant       1.00      1.00      1.00        30
+       salary       1.00      1.00      1.00        30
+     shopping       0.97      0.97      0.97        31
+ subscription       0.90      0.93      0.92        30
+    transport       1.00      1.00      1.00        30
+    utilities       0.97      0.97      0.97        30
+
+     accuracy                           0.98       301
+    macro avg       0.98      0.98      0.98       301
+ weighted avg       0.98      0.98      0.98       301
+
+
